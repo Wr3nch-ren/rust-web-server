@@ -3,7 +3,7 @@ use std::{
     io::{prelude::*, BufReader},
     net::{TcpListener, TcpStream},
 };
-use socket_programming::ThreadPool;
+use web_server::ThreadPool;
 
 fn main() {
     // Bind the listener to the port
